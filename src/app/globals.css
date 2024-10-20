@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.outline:focus{
+    background-color: rgb(98, 96, 96);
+    border: 1px solid white;
+    color: white;
+}
+#nav2{
+    display: none;
+}
+
+#icon{
+    transition: all 0.3s ease;
+}
+#icon:hover{
+color: rgb(223, 83, 83);
+border-bottom: 2px solid red;
+}
+
+#profile-icon{
+    border-radius: 50%;
+    height: 36px ;
+    width: 36px;
+    padding: 2px;
+    transition: all 0.3s ease;
+}
+#profile-icon:hover{
+    box-shadow: 7px 5px 5px 1px rgb(169, 165, 165),
+                0  0  2px 5px rgb(173, 170, 170);
+    cursor: pointer;
+    transform: translateY(-8px);
+}
